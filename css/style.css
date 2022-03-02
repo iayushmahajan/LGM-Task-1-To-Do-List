@@ -1,0 +1,89 @@
+body{
+    background: #067e74;
+}
+.container{
+    width: 40%;
+    margin: 20px 30% 25% 30%;
+    background: rgb(230, 231, 221);
+    border-radius: 10px;
+    min-width: 450px;
+    border: #033834 solid;
+    position: absolute;
+    min-height: 100px;
+}
+#title{
+    margin-top: 10%;
+    margin-inline: 39.5%;
+    font-family: 'Georgia', serif;
+    color: white;
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    border: 2px solid #067e74;;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #1fb4a8;
+    border: solid #067e74;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+}
+#tasks{
+    border-radius: 10px;
+    width: 96%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 10px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #069677;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
